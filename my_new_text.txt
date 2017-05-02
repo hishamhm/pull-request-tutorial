@@ -1,0 +1,8 @@
+
+
+
+eventName       category    Action  Label
+sendEmailemail  Address     Mail    "colleagueid"
+callNumber      phoneNumber Dial    "colleagueid"
+
+
