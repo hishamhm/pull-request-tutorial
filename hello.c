@@ -20,6 +20,7 @@ int main(int argc, char** argv) {
    printf("@ddferrando\n");
    printf("@luotaoyeah\n");
    printf("@uthmanhere\n");
+   printf("@diszgaurav\n");
 
    printf("\nSend a PR to add your username here! :-) \n");
 
