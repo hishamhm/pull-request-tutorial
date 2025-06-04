@@ -65,3 +65,14 @@ if __name__ =="__main__":
     data = sys.argv[1:]
     p = pull_requester(data)
     print(p.made_pull_request_today())
+
+# sksabfisbfisafbf
+# ASfasfsaG
+# SAGS
+# ASfasfsaGagA
+# SgaG
+# RaG
+# GASg
+# ASfasfsaGagAegR
+# eaghEAgeG
+# eaghEAgeGG
