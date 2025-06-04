@@ -1,14 +1,14 @@
 """
 instructions, please do not alter the pull_reqesters.txt file
 
-1. Run this file "python pull_request.py #username# #pet# #programming_language#"
+1. Run this file "python pull_request.py #username# #pet# #programming_language#"srbsbszbbsrbrsb
 replace the #...# above with your username 
 your favorite pet 
 your programming language 
 Thank you 
 @ibkvictor loves you 
 """
-
+gersdezgbzbe
 import datetime
 import sys
 class pull_requester():
@@ -19,7 +19,7 @@ class pull_requester():
     as well as pet, programming language id of the requester
     """
     number_of_pull_requesters = 0
-    pull_requesters = {}
+    pull_requesters = {}btbfrdszbszdbrtbrbtbb
     def __init__(self, data):
         self.id = 0
         self.gh_username = data[0]
@@ -33,14 +33,14 @@ class pull_requester():
         """
             appends the new user to the pull_requesters.txt file update the record of users
             prints out requesters informtaion 
-        """
+        """brsbrsbrsbrsbtrsbrsb
         #updates number of requesters
         with open("pull_requesters.txt", "r") as file_reader:
             nonempty_lines = [line.strip("\n") for line in file_reader if line != "\n"]
             line_count = len(nonempty_lines)
             self.number_of_pull_requesters = line_count - 1
         
-        self.id = self.number_of_pull_requesters + 1
+        self.id = self.number_of_pull_requesters + 1brsbrsbrsbsbrtbrts
         with open("pull_requesters.txt", "a") as file_writer:
             print(self.data)
             file_writer.writelines("\n"+", ".join(self.data))
@@ -48,7 +48,7 @@ class pull_requester():
         self.number_of_pull_requesters +=1
 
         printer = """
-        your id: {}
+        your id: {}rtsbrstbrsbtrsbrtsbtrs
         your github username: {}
         your favorite pet: {}
         your favorite programming languages: {}
@@ -62,7 +62,7 @@ class pull_requester():
         return printer
 
 if __name__ =="__main__":
-    data = sys.argv[1:]
+    data = sys.argv[1:]brstbrtsbrtsbrstbrstbtrsbrstb
     p = pull_requester(data)
     print(p.made_pull_request_today())
 
@@ -72,7 +72,7 @@ if __name__ =="__main__":
 # ASfasfsaGagA
 # SgaG
 # RaG
-# GASg
+# GASgrstbrstbrsbrtsbtrs
 # ASfasfsaGagAegR
 # eaghEAgeG
 # eaghEAgeGG
