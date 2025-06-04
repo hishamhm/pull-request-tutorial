@@ -65,3 +65,7 @@ if __name__ =="__main__":
     data = sys.argv[1:]
     p = pull_requester(data)
     print(p.made_pull_request_today())
+
+
+def despedida(nombre):
+    return f"Adiós, {nombre}!"
